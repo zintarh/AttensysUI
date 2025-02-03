@@ -130,7 +130,7 @@ const LandingPage = () => {
       </div>
 
       <div className="px-5 lg:px-0  mx-auto max-w-screen-xl  lg:py-20  lg:mt-28">
-        <div className="text-sm mx-5 md:mx-0 lg:hidden py-5">
+        <div className="text-sm px-5 md:mx-0 lg:hidden py-5">
           <button
             onClick={(e) =>
               handleCourse(e, e.currentTarget.textContent, router)

@@ -16,9 +16,7 @@ const Lectures = ({ lectures }: LectureData) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
       <div className="lg:py-6 py-4  order-first">
-
         <h2 className="text-xl font-bold mb-4 text-black ">Lectures (4)</h2>
-
         {lectures.map((item, id) => (
           <div key={id} className="flex items-center  py-3">
             <Image src={item.img} alt="hero" />

@@ -73,7 +73,7 @@ const MainFormView5 = () => {
             <form
               action="course-landing-page"
               method="post"
-              className="md:mr-5 lg:mr-0"
+              className="md:px-5 lg:px-0"
             >
               <button className="hidden sm:block bg-[#C5D322] px-7 py-3  rounded text-white">
                 Publish
